@@ -1,0 +1,88 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2026
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{911E67C6-3D85-4FCE-B560-20A9C3E3FF48}") = "Editor", "Editor.exe", "{A2AC118C-C653-41FD-BB5C-98F6DC443022}"
+	ProjectSection(DebuggerProjectSystem) = preProject
+		PortSupplier = 00000000-0000-0000-0000-000000000000
+		Executable = C:\Dev\Projects\BlueDragon\Editor.exe
+		RemoteMachine = DESKTOP-Q3J3VO5
+		StartingDirectory = C:\Dev\Projects\BlueDragon
+		Environment = Default
+		LaunchingEngine = 00000000-0000-0000-0000-000000000000
+		UseLegacyDebugEngines = No
+		LaunchSQLEngine = No
+		AttachLaunchAction = No
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{B67A2CB8-5D08-40AC-8730-7DB7196BD3C6}"
+	ProjectSection(SolutionItems) = preProject
+		Application.c = Application.c
+		Application.h = Application.h
+		Camera.c = Camera.c
+		Camera.h = Camera.h
+		DataTypes.h = DataTypes.h
+		Editor.c = Editor.c
+		Editor.h = Editor.h
+		EditorHScroll.c = EditorHScroll.c
+		EditorHScroll.h = EditorHScroll.h
+		EditorVScroll.c = EditorVScroll.c
+		EditorVScroll.h = EditorVScroll.h
+		Font.c = Font.c
+		Font.h = Font.h
+		ImageLoader.c = ImageLoader.c
+		ImageLoader.h = ImageLoader.h
+		Keyboard.c = Keyboard.c
+		Keyboard.h = Keyboard.h
+		main.c = main.c
+		Menu.c = Menu.c
+		Menu.h = Menu.h
+		MenuBar.c = MenuBar.c
+		MenuBar.h = MenuBar.h
+		MenuGroup.c = MenuGroup.c
+		MenuGroup.h = MenuGroup.h
+		MenuItem.c = MenuItem.c
+		MenuItem.h = MenuItem.h
+		MenuSection.c = MenuSection.c
+		MenuSection.h = MenuSection.h
+		Mouse.c = Mouse.c
+		Mouse.h = Mouse.h
+		Player.c = Player.c
+		Player.h = Player.h
+		Renderer.c = Renderer.c
+		Renderer.h = Renderer.h
+		SubSystems.c = SubSystems.c
+		SubSystems.h = SubSystems.h
+		Tile.c = Tile.c
+		Tile.h = Tile.h
+		Tileset.c = Tileset.c
+		Tileset.h = Tileset.h
+		TilesetSelector.c = TilesetSelector.c
+		TilesetSelector.h = TilesetSelector.h
+		Timer.c = Timer.c
+		Timer.h = Timer.h
+		UI.c = UI.c
+		UI.h = UI.h
+		UtilConvert.h = UtilConvert.h
+		UtilDPIAwareness.h = UtilDPIAwareness.h
+		Window.c = Window.c
+		Window.h = Window.h
+		World.c = World.c
+		World.h = World.h
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A2AC118C-C653-41FD-BB5C-98F6DC443022}.Release|x64.ActiveCfg = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6A6EDB27-6EDC-4260-8BDE-7A3DDC3DB022}
+	EndGlobalSection
+EndGlobal

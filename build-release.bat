@@ -1,0 +1,4 @@
+@echo off
+
+REM cl -O2 -MT -nologo main.c Application.c Subsystems.c Timer.c Keyboard.c Mouse.c Window.c Renderer.c Camera.c ImageLoader.c Font.c Editor.c Menu.c Player.c World.c Tileset.c Tile.c -Fe"Editor.exe" -I"SDL2/include" -I"SDL2_image/include" -I"SDL2_ttf/include" -link -LIBPATH:"SDL2/lib/x64" -LIBPATH:"SDL2_image/lib/x64" -LIBPATH:"SDL2_ttf/lib/x64" SDL2.lib SDL2main.lib SDL2_image.lib SDL2_ttf.lib Shcore.lib -SUBSYSTEM:CONSOLE
+cl -O2 -MT -nologo *.c -Fe"Editor.exe" -I"SDL2/include" -I"SDL2_image/include" -I"SDL2_ttf/include" -link -LIBPATH:"SDL2/lib/x64" -LIBPATH:"SDL2_image/lib/x64" -LIBPATH:"SDL2_ttf/lib/x64" SDL2.lib SDL2main.lib SDL2_image.lib SDL2_ttf.lib Shcore.lib -SUBSYSTEM:CONSOLE
